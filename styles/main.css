@@ -13,3 +13,11 @@ body{
 	margin:0;
 }
 
+nav{
+	background-color:#36c;
+}
+
+.menu{
+	display:flex;
+	justify-content:center;
+}
