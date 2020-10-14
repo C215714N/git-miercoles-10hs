@@ -1,0 +1,15 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+#header,
+#footer{
+	background-color:darkslateblue;
+	color:whitesmoke;
+	padding: 1rem;
+}
+
+body{
+	margin:0;
+}
+
