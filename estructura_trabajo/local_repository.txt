@@ -32,3 +32,11 @@ git checkout	"Permite mover el Apuntador a la direccion indicada"
 	git checkout -b <branch> => crear la rama y mueve el apuntador a ella
 	git checkout <branch> => mueve el apuntador al HEAD (ultimo commit) de la rama especificada
 	git checkout <tag> => mueve el apuntador al commit etiquetado
+
+git revert	"genera un nuevo commit deshaciendo el commit especificado"
+	git revert --abort => cancela el comando revert y reestablece el working directory
+	git revert --continue => continua con revert despues de resolver un conflicto
+git reset	"restablece el historial de commit a un punto especifico"
+	git reset --soft <hash> => quita los cambios del index sin modificar el working directory
+	git reset --hard <hash> => mueve el HEAD al commit especificado (se pierde el historial de commits y los cambios del working directory)
+	git reset HEAD -- <file> => deshace los cambios del working directory para el archivo especificado
