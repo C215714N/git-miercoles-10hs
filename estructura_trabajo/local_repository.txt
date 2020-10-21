@@ -22,8 +22,9 @@ git commit	"Guardamos los cambios en el historial"
 git diff	"evalua las modificaciones realizadas"
 	git diff <hash> => compara la cabecera actual con el commit indicado
 	git diff HEAD <ancestro> => compara la cabecera con el ancestro especifico
-	^ => commit padre
-	~n° => commit anterior
+	ancestros:
+		^ => commit padre
+		~n° => commit anterior
 
 git checkout	"Permite mover el Apuntador a la direccion indicada"
 	git checkout HEAD => define el commit actual como nueva cabecera
