@@ -32,3 +32,8 @@ git checkout	"Permite mover el Apuntador a la direccion indicada"
 	git checkout -b <branch> => crear la rama y mueve el apuntador a ella
 	git checkout <branch> => mueve el apuntador al HEAD (ultimo commit) de la rama especificada
 	git checkout <tag> => mueve el apuntador al commit etiquetado
+
+git tag "Permite etiquetar commits"
+	git tag -l => lista los tags utilizados
+	git tag <tag> => crea un tag en el commit actual
+	git tag -d <tag> => elimina el tag especificado
