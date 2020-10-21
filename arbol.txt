@@ -1,0 +1,39 @@
+* 23ffba0 (HEAD) reset --soft HEAD test.txt
+* 6ecbf0a c8
+* 609cd39 c7
+* e624408 c6
+* 446147b c6
+* 67923b7 c5
+* 98db0f9 c4
+* c60f1b4 c3
+* ab85139 (test) c2
+* 43a648c c1
+* 6beaeb5 (GIT/master, master) se agrego contenido - Remote Repository
+* 28c97c1 Se agrego comando STASH - Staging Area
+* 7d57cf2 Se agrego comando CHECKOUT - Local Repository
+| * 30cd13a (GIT/website, website) menu hamburguesa
+| * bf3e783 Estilo Website (rebase -i)
+| * ac94428 Cabecera CSS (rebase -i)
+| * 4ebeace actualizacion contenido index.html
+| * f34181f menu desplegable
+| * fc45b35 Estilos Website
+| * 6181ef0 Estructura pagina Web
+| | *   230f4d1 (GIT/rama-repositorios, rama-repositorios) Obtencion de cambios Repositorio Remoto (GIT)
+| | |\
+| | | *   871142e Fusion de Ramas (Desarrollo => Repositorios)
+| | | |\
+| | * | \   2892b26 Fusion desarrollo => repositorios
+| | |\ \ \
+| | | |/ /
+| | |/| /
+| | | |/
+| | | * 53b05a4 (GIT/rama-desarrollo, rama-desarrollo) Repositorio Remoto
+| |_|/
+|/| |
+* | | 08728b2 Se agrego contenido - Local Repository
+* | | 2c9f2d9 Se agrego contenido - Staging Area
+* | | 9a4c3e8 Se agrego contenido - Working Directory
+|/ /
+| * a2227fa Teoria sobre Repositorios
+|/
+* 7b362a3 Commit Inicial (Git Desarrollo Colaborativo)
