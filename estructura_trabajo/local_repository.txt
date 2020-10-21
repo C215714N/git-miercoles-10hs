@@ -22,8 +22,9 @@ git commit	"Guardamos los cambios en el historial"
 git diff	"evalua las modificaciones realizadas"
 	git diff <hash> => compara la cabecera actual con el commit indicado
 	git diff HEAD <ancestro> => compara la cabecera con el ancestro especifico
-	^ => commit padre
-	~n° => commit anterior
+	ancestros:
+		^ => commit padre
+		~n° => commit anterior
 
 git checkout	"Permite mover el Apuntador a la direccion indicada"
 	git checkout HEAD => define el commit actual como nueva cabecera
@@ -33,6 +34,7 @@ git checkout	"Permite mover el Apuntador a la direccion indicada"
 	git checkout <branch> => mueve el apuntador al HEAD (ultimo commit) de la rama especificada
 	git checkout <tag> => mueve el apuntador al commit etiquetado
 
+
 git revert	"genera un nuevo commit deshaciendo el commit especificado"
 	git revert --abort => cancela el comando revert y reestablece el working directory
 	git revert --continue => continua con revert despues de resolver un conflicto
@@ -40,3 +42,8 @@ git reset	"restablece el historial de commit a un punto especifico"
 	git reset --soft <hash> => quita los cambios del index sin modificar el working directory
 	git reset --hard <hash> => mueve el HEAD al commit especificado (se pierde el historial de commits y los cambios del working directory)
 	git reset HEAD -- <file> => deshace los cambios del working directory para el archivo especificado
+
+git tag "Permite etiquetar commits"
+	git tag -l => lista los tags utilizados
+	git tag <tag> => crea un tag en el commit actual
+	git tag -d <tag> => elimina el tag especificado
